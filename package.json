@@ -1,6 +1,6 @@
 {
   "name": "mongo-to-rethink",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "RethinkDB transfer for MongoDB database or collection",
   "main": "lib/index.js",
   "scripts": {
