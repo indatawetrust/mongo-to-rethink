@@ -1,0 +1,26 @@
+{
+  "name": "mongo-to-rethink",
+  "version": "0.0.1",
+  "description": "RethinkDB transfer for MongoDB database or collection",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongodb",
+    "rethinkdb",
+    "transfer"
+  ],
+  "bin": {
+    "mongo-to-rethink": "bin/index.js"
+  },
+  "author": "indatawetrust",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^2.2.26",
+    "p-queue": "^1.0.0",
+    "progress": "^2.0.0",
+    "rethinkdb": "^2.3.3",
+    "yargs": "^8.0.1"
+  }
+}
